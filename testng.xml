@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cathay Mortgage Calculator Test Suite">
+    <test name="Mortgage Calculator Tests">
+        <groups>
+            <run>
+                <include name="UI"/>
+                <include name="Function"/>
+                <include name="ColumnCheck"/>
+                <include name="Calculator"/>
+                <include name="ErrorHandling"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cathay.test.tests.MortgageCalculatorTest"/>
+        </classes>
+    </test>
+</suite> 

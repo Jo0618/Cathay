@@ -1,0 +1,104 @@
+# 房貸計算器頁面元素配置
+mortgage_calculator:
+  # iframe 相關
+  iframe:
+    tag: "iframe"
+    selector: "tagName"
+
+  #房貸試算標題
+  page_title:
+    name: 房貸試算標題
+    selectors:
+      - "h2.cubinvest-t1.cubinvest-t1--marginNull"
+
+  #房貸試算描述文字
+  page_description:
+    name: 房貸試算描述文字
+    selectors:
+      - "p.cubinvest-loan-banner-text"
+  
+  #購屋貸款方案超連結
+  mortgage_link:
+    name: 購屋貸款方案超連結
+    selectors:
+      - "p.cubinvest-loan-banner-text a"
+  
+  # 貸款金額輸入框
+  loan_amount:
+    name: "貸款金額輸入框"
+    selectors:
+      - "input[id='txtAmount']"
+      - "//input[@id='txtAmount']/following::span[contains(text(), '請輸入整數貸款金額')][1]" #error handling
+  
+  # 貸款年限輸入框
+  loan_term:
+    name: "貸款年限輸入框"
+    selectors:
+      - "label[for='rdoLoanTerm20y']"
+      - "label[for='rdoLoanTerm30y']"
+      - "label[for='rdoLoanTermOther']"
+      - "#txtLoanTermOtherYear"
+      - "//input[@id='txtLoanTermOtherYear']/following::span[contains(text(), '請輸入貸款年限')][1]" #error handling
+  
+  # 利率輸入框
+  interest_rate:
+    name: "利率輸入框"
+    selectors:
+      - "#txtInterestRate"
+      - "//input[@id='txtInterestRate']/following::span[contains(text(), '請輸入數字')][1]" #error handling
+
+  # 計算按鈕
+  calculate_button:
+    name: "計算按鈕"
+    selectors:
+      - "#btnCalculate"
+
+  # 重新計算按鈕
+  calculate_reset_button:
+    name: "重新計算按鈕"
+    selectors:
+      - "#btnReset"
+  
+  # 試算結果
+  result_loan:
+    name: "貸款成數"
+    selectors:
+      - "span[id='spanMaxLoan']"
+
+  result_price:
+    name: "購買類型"
+    selectors:
+      - "span[id='spanHousePrice']"
+  
+  # 縣市選擇框
+  city_select:
+    name: "縣市選擇框"
+    selectors:
+      - "select[id='cityLtv']"
+      - "//div[contains(@class,'cubinvest-c-formElement__message')]//span[text()='請選擇縣市']" #error handling
+
+  
+  # 行政區域選擇框
+  district_select:
+    name: "行政區域選擇框"
+    selectors:
+      - "select[id='areaLtv']"
+      - "//div[contains(@class,'cubinvest-c-formElement__message')]//span[text()='請選擇行政區']" #error handling
+
+  # 馬上預約諮詢按鈕
+  consult_button:
+    name: "馬上預約諮詢按鈕"
+    selectors:
+      - "//a[contains(text(), '馬上預約諮詢')]"
+
+  #每月還款金額試算
+  monthly_calc_link:
+    name: "每月還款金額試算"
+    selectors:
+      - "a[href='/cathaybk/personal/loan/calculator/mortgage-monthly-payments']"
+
+  #貸款成數試算
+  ltv_calc_link:
+    name: "貸款成數試算"
+    selectors:
+      - "a[href='/cathaybk/personal/loan/calculator/mortgage-to-value']"

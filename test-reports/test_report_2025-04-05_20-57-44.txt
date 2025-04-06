@@ -1,0 +1,159 @@
+測試時間: Sat Apr 05 20:57:44 CST 2025
+測試名稱: testMortgageCalculator
+測試狀態: 跳過
+錯誤信息: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'T-01014738ML', ip: 'fe80:0:0:0:8b:aee5:6502:39f0%en0'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4', java.version: '23.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutableDir=/opt/homebrew/bin, appium:chromedriverChromeMappingFile=/opt/homebrew/bin/chromedriver, goog:chromeOptions={args=[--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions=[]}, browserName=chrome, appium:chromedriverExecutable=/opt/homebrew/bin/chromedriver, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64, platformName=ANDROID, appium:automationName=UiAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutableDir: /opt/homebrew/bin, appium:deviceName: Pixel_3a_API_34_extension_l..., browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions: []}, platformName: ANDROID}}]
+Capabilities {appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutableDir: /opt/homebrew/bin, appium:deviceName: Pixel_3a_API_34_extension_l..., browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions: []}, platformName: ANDROID}
+堆疊追蹤: 
+	org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+	io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+	io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+	com.cathay.test.config.AppiumConfig.setUp(AppiumConfig.java:40)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+	org.testng.TestRunner.beforeRun(TestRunner.java:633)
+	org.testng.TestRunner.run(TestRunner.java:595)
+	org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	org.testng.TestNG.runSuites(TestNG.java:1099)
+	org.testng.TestNG.run(TestNG.java:1067)
+	org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+----------------------------------------
+測試時間: Sat Apr 05 20:57:44 CST 2025
+測試名稱: testMortgageCalculator
+測試狀態: 跳過
+錯誤信息: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'T-01014738ML', ip: 'fe80:0:0:0:8b:aee5:6502:39f0%en0'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4', java.version: '23.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutableDir=/opt/homebrew/bin, appium:chromedriverChromeMappingFile=/opt/homebrew/bin/chromedriver, goog:chromeOptions={args=[--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions=[]}, browserName=chrome, appium:chromedriverExecutable=/opt/homebrew/bin/chromedriver, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64, platformName=ANDROID, appium:automationName=UiAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutableDir: /opt/homebrew/bin, appium:deviceName: Pixel_3a_API_34_extension_l..., browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions: []}, platformName: ANDROID}}]
+Capabilities {appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutableDir: /opt/homebrew/bin, appium:deviceName: Pixel_3a_API_34_extension_l..., browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions: []}, platformName: ANDROID}
+堆疊追蹤: 
+	org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+	io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+	io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+	com.cathay.test.config.AppiumConfig.setUp(AppiumConfig.java:40)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+	org.testng.TestRunner.beforeRun(TestRunner.java:633)
+	org.testng.TestRunner.run(TestRunner.java:595)
+	org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	org.testng.TestNG.runSuites(TestNG.java:1099)
+	org.testng.TestNG.run(TestNG.java:1067)
+	org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+----------------------------------------
+測試時間: Sat Apr 05 20:57:44 CST 2025
+測試名稱: testMortgageCalculator
+測試狀態: 跳過
+錯誤信息: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'T-01014738ML', ip: 'fe80:0:0:0:8b:aee5:6502:39f0%en0'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4', java.version: '23.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutableDir=/opt/homebrew/bin, appium:chromedriverChromeMappingFile=/opt/homebrew/bin/chromedriver, goog:chromeOptions={args=[--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions=[]}, browserName=chrome, appium:chromedriverExecutable=/opt/homebrew/bin/chromedriver, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64, platformName=ANDROID, appium:automationName=UiAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutableDir: /opt/homebrew/bin, appium:deviceName: Pixel_3a_API_34_extension_l..., browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions: []}, platformName: ANDROID}}]
+Capabilities {appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:chromedriverExecutableDir: /opt/homebrew/bin, appium:deviceName: Pixel_3a_API_34_extension_l..., browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --ignore-certificate-errors, --remote-allow-origins=*], extensions: []}, platformName: ANDROID}
+堆疊追蹤: 
+	org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+	io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+	io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+	com.cathay.test.config.AppiumConfig.setUp(AppiumConfig.java:40)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+	org.testng.TestRunner.beforeRun(TestRunner.java:633)
+	org.testng.TestRunner.run(TestRunner.java:595)
+	org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	org.testng.TestNG.runSuites(TestNG.java:1099)
+	org.testng.TestNG.run(TestNG.java:1067)
+	org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+----------------------------------------

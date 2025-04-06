@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Cathay Mortgage Calculator Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span>5 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cathay_Mortgage_Calculator_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" class="hide-methods passed suite-Cathay_Mortgage_Calculator_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Cathay_Mortgage_Calculator_Test_Suite -->
+                      <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" class="show-methods passed suite-Cathay_Mortgage_Calculator_Test_Suite"> (show)</a> <!-- show-methods passed suite-Cathay_Mortgage_Calculator_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Cathay_Mortgage_Calculator_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingInterestRate">testErrorHandlingInterestRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingInterestRateNonNumber">testErrorHandlingInterestRateNonNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingLoadAmount">testErrorHandlingLoadAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingLoadAmountNonInt">testErrorHandlingLoadAmountNonInt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingLoadTerm">testErrorHandlingLoadTerm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingLoadTermNonInt">testErrorHandlingLoadTermNonInt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingLocationSelectionAll">testErrorHandlingLocationSelectionAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testErrorHandlingLocationSelectionOne">testErrorHandlingLocationSelectionOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testLocationSelection">testLocationSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testMortgageAllFieldVisibility">testMortgageAllFieldVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testMortgageCalculation">testMortgageCalculation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testMortgageCalculationReset">testMortgageCalculationReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" title="com.cathay.test.tests.MortgageCalculatorTest" class="method navigator-link" hash-for-method="testMortgageCalculationTwice">testMortgageCalculationTwice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cathay_Mortgage_Calculator_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cathay_Mortgage_Calculator_Test_Suite" class="panel Cathay_Mortgage_Calculator_Test_Suite">
+          <div class="suite-Cathay_Mortgage_Calculator_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cathay.test.tests.MortgageCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingInterestRate">
+                  </a> <!-- testErrorHandlingInterestRate -->
+                  <span class="method-name">testErrorHandlingInterestRate</span>
+                  <em>
+(房貸試算功能測試 - 貸款利率未輸入)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingInterestRateNonNumber">
+                  </a> <!-- testErrorHandlingInterestRateNonNumber -->
+                  <span class="method-name">testErrorHandlingInterestRateNonNumber</span>
+                  <em>
+(房貸試算功能測試 - 貸款利率輸入非數字)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingLoadAmount">
+                  </a> <!-- testErrorHandlingLoadAmount -->
+                  <span class="method-name">testErrorHandlingLoadAmount</span>
+                  <em>
+(房貸試算功能測試 - 房貸金額未填寫)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingLoadAmountNonInt">
+                  </a> <!-- testErrorHandlingLoadAmountNonInt -->
+                  <span class="method-name">testErrorHandlingLoadAmountNonInt</span>
+                  <em>
+(房貸試算功能測試 - 房貸金額輸入非數字)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingLoadTerm">
+                  </a> <!-- testErrorHandlingLoadTerm -->
+                  <span class="method-name">testErrorHandlingLoadTerm</span>
+                  <em>
+(房貸試算功能測試 - 貸款年限其他選項未輸入)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingLoadTermNonInt">
+                  </a> <!-- testErrorHandlingLoadTermNonInt -->
+                  <span class="method-name">testErrorHandlingLoadTermNonInt</span>
+                  <em>
+(房貸試算功能測試 - 貸款年限其他選項輸入非整數)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingLocationSelectionAll">
+                  </a> <!-- testErrorHandlingLocationSelectionAll -->
+                  <span class="method-name">testErrorHandlingLocationSelectionAll</span>
+                  <em>
+(房貸試算功能測試 - 房屋座落區域皆未選擇)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorHandlingLocationSelectionOne">
+                  </a> <!-- testErrorHandlingLocationSelectionOne -->
+                  <span class="method-name">testErrorHandlingLocationSelectionOne</span>
+                  <em>
+(房貸試算功能測試 - 房屋座落區域擇一未選擇)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLocationSelection">
+                  </a> <!-- testLocationSelection -->
+                  <span class="method-name">testLocationSelection</span>
+                  <em>
+(UI驗證 - 房屋座落區域欄位檢查)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMortgageAllFieldVisibility">
+                  </a> <!-- testMortgageAllFieldVisibility -->
+                  <span class="method-name">testMortgageAllFieldVisibility</span>
+                  <em>
+(UI驗證 - 房貸試算欄位檢查)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMortgageCalculation">
+                  </a> <!-- testMortgageCalculation -->
+                  <span class="method-name">testMortgageCalculation</span>
+                  <em>
+(房貸試算功能測試 - 輸入完整資訊，檢查試算結果)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMortgageCalculationReset">
+                  </a> <!-- testMortgageCalculationReset -->
+                  <span class="method-name">testMortgageCalculationReset</span>
+                  <em>
+(房貸試算功能測試 - 點選重新試算)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMortgageCalculationTwice">
+                  </a> <!-- testMortgageCalculationTwice -->
+                  <span class="method-name">testMortgageCalculationTwice</span>
+                  <em>
+(房貸試算功能測試 - 重新試算，檢查試算結果)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cathay_Mortgage_Calculator_Test_Suite-class-passed -->
+        </div> <!-- panel Cathay_Mortgage_Calculator_Test_Suite -->
+        <div panel-name="test-xml-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jo_du/Documents/Cursor/Appium/Cathay/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Cathay Mortgage Calculator Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Mortgage Calculator Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;UI&quot;/&gt;
+        &lt;include name=&quot;Function&quot;/&gt;
+        &lt;include name=&quot;ColumnCheck&quot;/&gt;
+        &lt;include name=&quot;Calculator&quot;/&gt;
+        &lt;include name=&quot;ErrorHandling&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cathay.test.tests.MortgageCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mortgage Calculator Tests --&gt;
+&lt;/suite&gt; &lt;!-- Cathay Mortgage Calculator Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cathay Mortgage Calculator Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Mortgage Calculator Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cathay Mortgage Calculator Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Calculator</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageCalculation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageCalculationReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageCalculationTwice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ColumnCheck</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLocationSelection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageAllFieldVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ErrorHandling</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingInterestRate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingInterestRateNonNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadAmount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadAmountNonInt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadTermNonInt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLocationSelectionAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLocationSelectionOne</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Function</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingInterestRate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingInterestRateNonNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadAmount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadAmountNonInt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLoadTermNonInt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLocationSelectionAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testErrorHandlingLocationSelectionOne</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageCalculation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageCalculationReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageCalculationTwice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">UI</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLocationSelection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMortgageAllFieldVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cathay Mortgage Calculator Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cathay_Mortgage_Calculator_Test_Suite');
+function tableData_Cathay_Mortgage_Calculator_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLocationSelection')
+data.setCell(0, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(0, 3, 12839);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMortgageCalculationTwice')
+data.setCell(1, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(1, 3, 6281);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testErrorHandlingLoadTermNonInt')
+data.setCell(2, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(2, 3, 4547);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMortgageCalculationReset')
+data.setCell(3, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(3, 3, 4530);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMortgageCalculation')
+data.setCell(4, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(4, 3, 3960);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testErrorHandlingLoadTerm')
+data.setCell(5, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(5, 3, 3452);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testErrorHandlingLocationSelectionOne')
+data.setCell(6, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(6, 3, 3379);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testErrorHandlingInterestRateNonNumber')
+data.setCell(7, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(7, 3, 3154);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testErrorHandlingLocationSelectionAll')
+data.setCell(8, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(8, 3, 3151);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testErrorHandlingLoadAmountNonInt')
+data.setCell(9, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(9, 3, 3118);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testErrorHandlingInterestRate')
+data.setCell(10, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(10, 3, 2967);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testErrorHandlingLoadAmount')
+data.setCell(11, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(11, 3, 2688);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMortgageAllFieldVisibility')
+data.setCell(12, 2, 'com.cathay.test.tests.MortgageCalculatorTest')
+data.setCell(12, 3, 2232);
+window.suiteTableData['Cathay_Mortgage_Calculator_Test_Suite']= { tableData: data, tableDiv: 'times-div-Cathay_Mortgage_Calculator_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-Cathay_Mortgage_Calculator_Test_Suite">
+              </div> <!-- times-div-Cathay_Mortgage_Calculator_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cathay Mortgage Calculator Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingInterestRateNonNumber</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 貸款利率輸入非數字</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMortgageCalculation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 輸入完整資訊，檢查試算結果</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingLoadTerm</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 貸款年限其他選項未輸入</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingLoadTermNonInt</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 貸款年限其他選項輸入非整數</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMortgageCalculationTwice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 重新試算，檢查試算結果</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingLoadAmountNonInt</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 房貸金額輸入非數字</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingInterestRate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 貸款利率未輸入</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingLocationSelectionOne</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 房屋座落區域擇一未選擇</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingLocationSelectionAll</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 房屋座落區域皆未選擇</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testErrorHandlingLoadAmount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 房貸金額未填寫</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLocationSelection</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">UI驗證 - 房屋座落區域欄位檢查</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMortgageCalculationReset</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">房貸試算功能測試 - 點選重新試算</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMortgageAllFieldVisibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">UI驗證 - 房貸試算欄位檢查</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cathay_Mortgage_Calculator_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cathay.test.tests.MortgageCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingInterestRate(), [TestResul...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingInterestRate</span>
+                <span class="method-start">12490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingInterestRateNonNumber(), [...)</span>
+                <span class="method-start">15793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingInterestRateNonNumber</span>
+                <span class="method-start">26789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadAmount(), [TestResult ...)</span>
+                <span class="method-start">30208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingLoadAmount</span>
+                <span class="method-start">41766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadAmountNonInt(), [TestR...)</span>
+                <span class="method-start">45047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingLoadAmountNonInt</span>
+                <span class="method-start">56565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadTerm(), [TestResult na...)</span>
+                <span class="method-start">60285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingLoadTerm</span>
+                <span class="method-start">71870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadTermNonInt(), [TestRes...)</span>
+                <span class="method-start">75584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingLoadTermNonInt</span>
+                <span class="method-start">86799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91346 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLocationSelectionAll(), [T...)</span>
+                <span class="method-start">91935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingLocationSelectionAll</span>
+                <span class="method-start">105014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLocationSelectionOne(), [T...)</span>
+                <span class="method-start">108553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorHandlingLocationSelectionOne</span>
+                <span class="method-start">120213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testLocationSelection(), [TestResult name={...)</span>
+                <span class="method-start">123917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLocationSelection</span>
+                <span class="method-start">137398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageAllFieldVisibility(), [TestResu...)</span>
+                <span class="method-start">150518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMortgageAllFieldVisibility</span>
+                <span class="method-start">162808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageCalculation(), [TestResult name...)</span>
+                <span class="method-start">165302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMortgageCalculation</span>
+                <span class="method-start">176499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">180459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageCalculationReset(), [TestResult...)</span>
+                <span class="method-start">180768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMortgageCalculationReset</span>
+                <span class="method-start">195006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageCalculationTwice(), [TestResult...)</span>
+                <span class="method-start">199875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMortgageCalculationTwice</span>
+                <span class="method-start">212446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">218727 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

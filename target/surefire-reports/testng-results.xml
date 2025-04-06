@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[房貸試算功能測試 - 貸款利率未輸入]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 貸款利率輸入非數字]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 房貸金額未填寫]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 房貸金額輸入非數字]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 貸款年限其他選項未輸入]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 貸款年限其他選項輸入非整數]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 房屋座落區域皆未選擇]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 房屋座落區域擇一未選擇]]>
+    </line>
+    <line>
+      <![CDATA[UI驗證 - 房屋座落區域欄位檢查]]>
+    </line>
+    <line>
+      <![CDATA[UI驗證 - 房貸試算欄位檢查]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 輸入完整資訊，檢查試算結果]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 點選重新試算]]>
+    </line>
+    <line>
+      <![CDATA[房貸試算功能測試 - 重新試算，檢查試算結果]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-06T21:52:23 CST" name="Cathay Mortgage Calculator Test Suite" finished-at="2025-04-06T21:56:03 CST" duration-ms="219361">
+    <groups>
+      <group name="Function">
+        <method signature="MortgageCalculatorTest.testErrorHandlingInterestRate()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingInterestRate" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingInterestRateNonNumber()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingInterestRateNonNumber" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadAmount()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadAmount" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadAmountNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadAmountNonInt" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadTerm()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadTerm" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadTermNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadTermNonInt" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLocationSelectionAll()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLocationSelectionAll" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLocationSelectionOne()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLocationSelectionOne" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageCalculation()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageCalculation" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageCalculationReset()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageCalculationReset" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageCalculationTwice()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageCalculationTwice" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+      </group> <!-- Function -->
+      <group name="ErrorHandling">
+        <method signature="MortgageCalculatorTest.testErrorHandlingInterestRate()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingInterestRate" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingInterestRateNonNumber()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingInterestRateNonNumber" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadAmount()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadAmount" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadAmountNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadAmountNonInt" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadTerm()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadTerm" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLoadTermNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLoadTermNonInt" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLocationSelectionAll()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLocationSelectionAll" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testErrorHandlingLocationSelectionOne()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testErrorHandlingLocationSelectionOne" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="UI">
+        <method signature="MortgageCalculatorTest.testLocationSelection()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testLocationSelection" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageAllFieldVisibility()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageAllFieldVisibility" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+      </group> <!-- UI -->
+      <group name="Calculator">
+        <method signature="MortgageCalculatorTest.testMortgageCalculation()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageCalculation" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageCalculationReset()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageCalculationReset" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageCalculationTwice()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageCalculationTwice" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+      </group> <!-- Calculator -->
+      <group name="ColumnCheck">
+        <method signature="MortgageCalculatorTest.testLocationSelection()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testLocationSelection" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+        <method signature="MortgageCalculatorTest.testMortgageAllFieldVisibility()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" name="testMortgageAllFieldVisibility" class="com.cathay.test.tests.MortgageCalculatorTest"/>
+      </group> <!-- ColumnCheck -->
+    </groups>
+    <test started-at="2025-04-06T21:52:23 CST" name="Mortgage Calculator Tests" finished-at="2025-04-06T21:56:03 CST" duration-ms="219361">
+      <class name="com.cathay.test.tests.MortgageCalculatorTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:23 CST" name="setUp" finished-at="2025-04-06T21:52:36 CST" duration-ms="12490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingInterestRate()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingInterestRate()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingInterestRate()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:36 CST" name="testErrorHandlingInterestRate" description="房貸試算功能測試 - 貸款利率未輸入" finished-at="2025-04-06T21:52:39 CST" duration-ms="2967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 貸款利率未輸入]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingInterestRate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:39 CST" name="tearDown" finished-at="2025-04-06T21:52:39 CST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:39 CST" name="setUp" finished-at="2025-04-06T21:52:50 CST" duration-ms="10996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingInterestRateNonNumber()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingInterestRateNonNumber()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingInterestRateNonNumber()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:50 CST" name="testErrorHandlingInterestRateNonNumber" description="房貸試算功能測試 - 貸款利率輸入非數字" finished-at="2025-04-06T21:52:53 CST" duration-ms="3154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 貸款利率輸入非數字]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingInterestRateNonNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:53 CST" name="tearDown" finished-at="2025-04-06T21:52:54 CST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:52:54 CST" name="setUp" finished-at="2025-04-06T21:53:05 CST" duration-ms="11558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadAmount()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingLoadAmount()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingLoadAmount()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:05 CST" name="testErrorHandlingLoadAmount" description="房貸試算功能測試 - 房貸金額未填寫" finished-at="2025-04-06T21:53:08 CST" duration-ms="2688" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 房貸金額未填寫]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingLoadAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:08 CST" name="tearDown" finished-at="2025-04-06T21:53:08 CST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:08 CST" name="setUp" finished-at="2025-04-06T21:53:20 CST" duration-ms="11518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadAmountNonInt()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingLoadAmountNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingLoadAmountNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:20 CST" name="testErrorHandlingLoadAmountNonInt" description="房貸試算功能測試 - 房貸金額輸入非數字" finished-at="2025-04-06T21:53:23 CST" duration-ms="3118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 房貸金額輸入非數字]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingLoadAmountNonInt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:23 CST" name="tearDown" finished-at="2025-04-06T21:53:24 CST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:24 CST" name="setUp" finished-at="2025-04-06T21:53:35 CST" duration-ms="11585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadTerm()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingLoadTerm()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingLoadTerm()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:35 CST" name="testErrorHandlingLoadTerm" description="房貸試算功能測試 - 貸款年限其他選項未輸入" finished-at="2025-04-06T21:53:39 CST" duration-ms="3452" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 貸款年限其他選項未輸入]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingLoadTerm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:39 CST" name="tearDown" finished-at="2025-04-06T21:53:39 CST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:39 CST" name="setUp" finished-at="2025-04-06T21:53:50 CST" duration-ms="11214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLoadTermNonInt()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingLoadTermNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingLoadTermNonInt()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:50 CST" name="testErrorHandlingLoadTermNonInt" description="房貸試算功能測試 - 貸款年限其他選項輸入非整數" finished-at="2025-04-06T21:53:55 CST" duration-ms="4547" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 貸款年限其他選項輸入非整數]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingLoadTermNonInt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:55 CST" name="tearDown" finished-at="2025-04-06T21:53:55 CST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:53:55 CST" name="setUp" finished-at="2025-04-06T21:54:08 CST" duration-ms="13079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLocationSelectionAll()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingLocationSelectionAll()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingLocationSelectionAll()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:08 CST" name="testErrorHandlingLocationSelectionAll" description="房貸試算功能測試 - 房屋座落區域皆未選擇" finished-at="2025-04-06T21:54:12 CST" duration-ms="3151" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 房屋座落區域皆未選擇]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingLocationSelectionAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:12 CST" name="tearDown" finished-at="2025-04-06T21:54:12 CST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:12 CST" name="setUp" finished-at="2025-04-06T21:54:24 CST" duration-ms="11660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testErrorHandlingLocationSelectionOne()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testErrorHandlingLocationSelectionOne()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorHandlingLocationSelectionOne()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:24 CST" name="testErrorHandlingLocationSelectionOne" description="房貸試算功能測試 - 房屋座落區域擇一未選擇" finished-at="2025-04-06T21:54:27 CST" duration-ms="3379" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 房屋座落區域擇一未選擇]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingLocationSelectionOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:27 CST" name="tearDown" finished-at="2025-04-06T21:54:27 CST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:27 CST" name="setUp" finished-at="2025-04-06T21:54:41 CST" duration-ms="13481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testLocationSelection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testLocationSelection()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLocationSelection()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:41 CST" name="testLocationSelection" description="UI驗證 - 房屋座落區域欄位檢查" finished-at="2025-04-06T21:54:54 CST" duration-ms="12839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UI驗證 - 房屋座落區域欄位檢查]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLocationSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:54 CST" name="tearDown" finished-at="2025-04-06T21:54:54 CST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:54:54 CST" name="setUp" finished-at="2025-04-06T21:55:06 CST" duration-ms="12289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageAllFieldVisibility()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testMortgageAllFieldVisibility()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMortgageAllFieldVisibility()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:06 CST" name="testMortgageAllFieldVisibility" description="UI驗證 - 房貸試算欄位檢查" finished-at="2025-04-06T21:55:08 CST" duration-ms="2232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UI驗證 - 房貸試算欄位檢查]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMortgageAllFieldVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:08 CST" name="tearDown" finished-at="2025-04-06T21:55:09 CST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:09 CST" name="setUp" finished-at="2025-04-06T21:55:20 CST" duration-ms="11196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageCalculation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testMortgageCalculation()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMortgageCalculation()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:20 CST" name="testMortgageCalculation" description="房貸試算功能測試 - 輸入完整資訊，檢查試算結果" finished-at="2025-04-06T21:55:24 CST" duration-ms="3960" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 輸入完整資訊，檢查試算結果]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMortgageCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:24 CST" name="tearDown" finished-at="2025-04-06T21:55:24 CST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:24 CST" name="setUp" finished-at="2025-04-06T21:55:38 CST" duration-ms="14238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageCalculationReset()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testMortgageCalculationReset()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMortgageCalculationReset()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:38 CST" name="testMortgageCalculationReset" description="房貸試算功能測試 - 點選重新試算" finished-at="2025-04-06T21:55:43 CST" duration-ms="4530" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 點選重新試算]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMortgageCalculationReset -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:43 CST" name="tearDown" finished-at="2025-04-06T21:55:43 CST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:43 CST" name="setUp" finished-at="2025-04-06T21:55:56 CST" duration-ms="12571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cathay.test.tests.MortgageCalculatorTest.testMortgageCalculationTwice()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MortgageCalculatorTest.testMortgageCalculationTwice()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMortgageCalculationTwice()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:55:56 CST" name="testMortgageCalculationTwice" description="房貸試算功能測試 - 重新試算，檢查試算結果" finished-at="2025-04-06T21:56:02 CST" duration-ms="6281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[房貸試算功能測試 - 重新試算，檢查試算結果]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMortgageCalculationTwice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cathay.test.tests.MortgageCalculatorTest@2f4205be]" started-at="2025-04-06T21:56:02 CST" name="tearDown" finished-at="2025-04-06T21:56:03 CST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cathay.test.tests.MortgageCalculatorTest -->
+    </test> <!-- Mortgage Calculator Tests -->
+  </suite> <!-- Cathay Mortgage Calculator Test Suite -->
+</testng-results>
